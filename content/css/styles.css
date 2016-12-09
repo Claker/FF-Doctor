@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'DroidSans';
+  src: url('../../font/DroidSans.ttf');
+  /* IE9 Compat Modes */
+  /* src: url('fonts/nc3/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/nc3/OpenSans-Light-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('fonts/nc3/OpenSans-Light-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/nc3/OpenSans-Light-webfont.svg#svgFontName') format('svg'); */
+  /* Legacy iOS */
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'DroidSans-Bold';
+  src: url('../../font/DroidSans-bold.ttf');
+  /* IE9 Compat Modes */
+  /* src: url('fonts/nc3/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/nc3/OpenSans-Light-webfont.woff') format('woff'), /* Pretty Modern Browsers */ url('fonts/nc3/OpenSans-Light-webfont.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/nc3/OpenSans-Light-webfont.svg#svgFontName') format('svg'); */
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+body
+{
+	font-family:'DroidSans';
+    padding-top: 50px;
+}
+
+input[type="button"]{
+    margin-left:5px;
+}
+
+
+
+/* --- User settings --- */
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+#testB_wrapper {
+    margin-top:-55px;
+}
+
+#testB_wrapper div:nth-child(2) .col-sm-12 {
+z-index:-1;
+}
+
+#testB_filter {
+    min-width:555px;
+
+}
+
+/* --- Own css --- */
+#Anasthesiologie-title {
+    margin-top:-40px;
+}
+
+#Anasthesiologie-title img
+{
+    width:28px;
+    height:28px;
+    margin-top:3px;
+}
+
+#Anasthesiologie-title h4
+{
+    display:inline; 
+    font-weight:bold;
+    margin-left:5px;
+}
+
+#Anasthesiologie-title div
+{
+    margin-left:33px;
+    font-size:12px;
+    margin-top:-10px;
+    margin-bottom:13px;
+}
+
+
+/* --- Content1_left --- */
+
+#content1_left{
+    padding-right: 5px;
+    padding-left:  0px;
+}
+
+#content1_left form {
+    float:left;
+}
+
+
+
+.panel-info .panel-body {
+    padding-right: 15px;
+    padding-left:  15px;
+}
+
+#userDetails {
+    padding-right: 0px;
+    padding-left:  0px;
+}
+
+
+/*Bootstrap override*/
+.navbar-inverse {
+    
+    /*background-image:-webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image:-o-linear-gradient(top,#3c3c3c 0,#222 100%);
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+    background-image:linear-gradient(to bottom,  #A9DDD9 0,#23B5AF 100%);*/
+    background-image:none;
+    background-color:#d9edf7;
+    border-color:#31708f;
+    font-weight:bold;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    text-shadow:none;
+    color:#31708f;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a
+{
+    background-image:none;
+    background-color:#31708f;
+}
